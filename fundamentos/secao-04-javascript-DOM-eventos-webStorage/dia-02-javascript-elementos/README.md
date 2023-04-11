@@ -1,22 +1,10 @@
 # Trybe
 
-Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[SeuNomeAqui](LinkDoSeuLinkedinAqui)_ enquanto estudava na [Trybe](https://www.betrybe.com/) 🚀
+O que vamos aprender?
+Nesta aula sobre JavaScript, você aprenderá a adicionar e remover tags de uma página por meio de métodos próprios do Document Object Model.
 
-_"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vida e construir uma carreira de sucesso em tecnologia, onde a pessoa só paga quando conseguir um bom trabalho."_
+Entender quais são esses mecanismos e como eles funcionam é essencial, pois, assim, você construirá o domínio necessário para manipular o conteúdo de uma página HTML com o uso do JavaScript.
 
-O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
+Esse é um passo importante para a construção de páginas web com recursos de interatividade! Adicionar e remover tags de uma página HTML proporciona à pessoa usuária a possibilidade de alterar o comportamento da página com um simples clique. Muito legal, não é?
 
-## Fundamentos do Desenvolvimento Web ✅
-
-##### Bloco 1: Introdução - Unix & Shell
-
-- [ ] 1-3: _Unix & Shell- Part 1_
-- [ ] 1-4: _Unix & Shell- Part 2_
-
-##### Bloco 2: Git & GitHub
-
-- [ ] 2-1: _O que é e para que serve?_
-- [ ] 2-2: _Entendendo os comandos_
-- [ ] 2-3: _Internet - Entendendo como ela funciona_
-
-[etc...]
+Além disso, você vai conhecer mais uma forma de buscar os elementos da página e, assim, aumentará sua caixa de ferramentas.
