@@ -59,48 +59,66 @@
   <script>
     //Paso 1 - tag h1 com o texto como filho da tag body
     let texto = document.createElement("h1");
+    texto.className = "title";
     texto.innerHTML = "TrybeTrip - Agência de Viagens";
     document.body.appendChild(texto);
     //2- Adicione a tag main com a classe main-content como filho da tag body;
-    let main = document.createElement('main')
-    main.className = 'main-content'
+    let main = document.createElement("main");
+    main.className = "main-content";
     document.body.appendChild(main);
     //Adicione a tag section com a classe center-content como filho da tag main criada no passo 2;
-    let section = document.createElement('section')
-    section.className = 'center-content'
-    main.appendChild(section)
+    let section = document.createElement("section");
+    section.className = "center-content";
+    main.appendChild(section);
     //Adicione a tag p como filho do section criado no passo 3 e coloque algum texto;
-    let p = document.createElement('p')
-    p.innerText = 'Texto inserido aqui'
-    section.appendChild(p)
+    let p = document.createElement("p");
+    p.innerText = "Texto inserido aqui";
+    section.appendChild(p);
     //Adicione a tag section com a classe left-content como filho da tag main criada no passo 2;
-    let section2 = document.createElement('section')
-    section2.className = 'left-content'
-    main.appendChild(section2)
+    let section2 = document.createElement("section");
+    section2.className = "left-content";
+    main.appendChild(section2);
     //Adicione a tag section com a classe right-content como filho da tag main criada no passo 2;
-    let section3 = document.createElement('section')
-    section3.className = 'right-content'
-    main.appendChild(section3)
+    let section3 = document.createElement("section");
+    section3.className = "right-content";
+    main.appendChild(section3);
     // let section2 = document.createElement('section')
-    let imagem = document.createElement('img')
-    imagem.className = 'small-image'
-    imagem.src = 'https://picsum.photos/200'
-    section2.appendChild(imagem)
+    let imagem = document.createElement("img");
+    imagem.className = "small-image";
+    imagem.src = "https://picsum.photos/200";
+    section2.appendChild(imagem);
     //Adicione uma lista não ordenada com os valores de 1 a 10 por extenso, ou seja, um, dois, três, e assim por diante. Essa lista deve ser filha do section criado no passo 6;
-    const ul = document.createElement('ul')
-    const numeros = ['um','dois','tres','quatro','cinco','seis','sete','oito','nove','dez']
-    for (let index = 0; index < numeros.length; index +=1 ) {
-    const li = document.createElement('li')
-    li.innerText = numeros[index];
-    ul.appendChild(li);
-   } 
-   section3.appendChild(ul)
-   //Adicione 3 tags h3, todas filhas do main criado no passo 2
-    const h3 = document.createElement('h3')
-    const textos2 = ['Itália','Portugal','Espanha']
-    for (let index = 0; index < textos2.length; index +=1 ) { 
-    h3.innerText = textos2[index];    
+    const ul = document.createElement("ul");
+    const numeros = [
+      "um",
+      "dois",
+      "tres",
+      "quatro",
+      "cinco",
+      "seis",
+      "sete",
+      "oito",
+      "nove",
+      "dez",
+    ];
+    for (let index = 0; index < numeros.length -2; index += 1) {
+      const li = document.createElement("li");
+      li.innerText = numeros[index];
+      ul.appendChild(li);
     }
-    main.appendChild(h3)
+    section3.appendChild(ul);
+    //Adicione 3 tags h3, todas filhas do main criado no passo 2
+    const h3 = document.createElement("h3");
+    const textos2 = ["Itália", "Portugal", "Espanha"];
+    for (let index = 0; index < textos2.length; index += 1) {
+      h3.innerText = textos2[index];
+    }
+    main.appendChild(h3);
+    //removendo a section 5
+    main.removeChild(section2)
+    //centralizando elemento
+    section3.style.marginRight='auto'
+    //troca de cor para verde
+    section.style.backgroundColor='green'
   </script>
 </html>
