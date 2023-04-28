@@ -1,0 +1,16 @@
+{
+  "name": "dia-02-jest",
+  "version": "1.0.0",
+  "description": "Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[SeuNomeAqui](LinkDoSeuLinkedinAqui)_ enquanto estudava na [Trybe](https://www.betrybe.com/) 🚀",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.1",
+    "jest": "^29.5.0"
+  }
+}
